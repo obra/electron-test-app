@@ -23,8 +23,8 @@ module.exports = {
     {
       name: "@electron-forge/publisher-github",
       config: {
-          github_repository.owner: "obra",
-          github_repository.name: "electron-test-app"
+          "github_repository.owner": "obra",
+          "github_repository.name": "electron-test-app"
       },
     },
   ],
