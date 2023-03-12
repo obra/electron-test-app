@@ -19,7 +19,14 @@ module.exports = {
       config: {},
     },
   ],
-  plugins: [
+    publishers: [
+    {
+      name: "@electron-forge/publisher-github",
+      config: {
+      },
+    },
+  ],
+plugins: [
     {
       name: '@electron-forge/plugin-webpack',
       config: {
